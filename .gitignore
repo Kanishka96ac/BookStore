@@ -1,0 +1,66 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Next.js build output
+.next/
+out/
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+*.swp
+*.swo
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore local AWS credentials
+.aws/
+
+# Ignore PM2 logs and PIDs
+pids/
+*.pid
+*.pid.lock
+pm2.log
+*.log
+
+# Ignore yarn and npm lock files if using both package managers
+yarn.lock
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore GitHub Actions workflows
+.github/workflows/*
